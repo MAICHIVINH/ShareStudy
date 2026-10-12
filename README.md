@@ -13,7 +13,6 @@
 [![Ant Design](https://img.shields.io/badge/Ant%20Design-v6-0170FE?logo=antdesign&logoColor=white)](https://ant.design/)
 [![TailwindCSS](https://img.shields.io/badge/TailwindCSS-v3.4-38B2AC?logo=tailwindcss&logoColor=white)](https://tailwindcss.com/)
 [![Docker](https://img.shields.io/badge/Docker-Compose-2496ED?logo=docker&logoColor=white)](https://www.docker.com/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 [Giới thiệu](#1-giới-thiệu-tổng-quan) • [Kiến trúc](#2-kiến-trúc-hệ-thống) • [Tính năng](#3-tính-năng-nổi-bật) • [Cấu trúc dự án](#4-cấu-trúc-thư-mục-dự-án) • [Biến môi trường](#5-cấu-hình-biến-môi-trường-env) • [Khởi chạy Local](#6-hướng-dẫn-khởi-chạy-môi-trường-local) • [Tài khoản mẫu](#7-tài-khoản-đăng-nhập-mặc-định) • [REST API](#8-tổng-quan-api-endpoints) • [Triển khai Cloud](#9-triển-khai-production-cloud) • [Bảo mật](#10-bảo-mật--an-toàn-thông-tin)
 
