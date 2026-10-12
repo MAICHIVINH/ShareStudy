@@ -1,0 +1,6 @@
+@ShareStudy.Api_HostAddress = http://localhost:5068
+
+GET {{ShareStudy.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

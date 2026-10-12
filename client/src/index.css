@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: 'Inter', system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color: #0F172A;
+  background-color: #F8FAFC;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  background-color: #F8FAFC;
+}
+
+/* Custom Utilities for ShareStudy UI */
+.bg-primary-gradient {
+  background: linear-gradient(135deg, #EFF6FF 0%, #DBEAFE 100%);
+}
+
+.card-hover-effect {
+  transition: all 0.25s ease-in-out;
+}
+.card-hover-effect:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 24px -10px rgba(37, 99, 235, 0.15);
+}
+
+/* Fix Ant Design Upload Dragger double-border artifacts */
+.ant-upload-wrapper .ant-upload-drag {
+  border: 2px dashed #CBD5E1 !important;
+  border-radius: 1rem !important;
+  background-color: #F8FAFC !important;
+  transition: all 0.2s ease !important;
+}
+
+.ant-upload-wrapper .ant-upload-drag:hover {
+  border-color: #2563EB !important;
+  background-color: #EFF6FF !important;
+}
+
+.dark .ant-upload-wrapper .ant-upload-drag {
+  border-color: #334155 !important;
+  background-color: #1E293B !important;
+}
+
+.dark .ant-upload-wrapper .ant-upload-drag:hover {
+  border-color: #3B82F6 !important;
+  background-color: #0F172A !important;
+}
